@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #375ca5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column; /* Change direction to column */
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    margin: 0; /* Remove default margin */
+}
+
+.ltd {
+    font-weight: normal; /* Adjust font weight as needed */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Control spacing from input */
+}
+
+.remember-me input {
+    margin-right: 10px; /* Control distance between checkbox and label */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.message {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.message a {
+    color: #5cb85c;
+    text-decoration: none;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}
